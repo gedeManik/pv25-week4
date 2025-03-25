@@ -109,5 +109,6 @@ class POSApplication(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    ex = POSApplication()
+    window = POSApplication()
+    window.show()
     sys.exit(app.exec_())
