@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>309</width>
+    <height>316</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -156,8 +156,8 @@
       <rect>
        <x>30</x>
        <y>250</y>
-       <width>47</width>
-       <height>13</height>
+       <width>241</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="text">
@@ -171,10 +171,22 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>309</width>
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuPOS_F1D022046">
+    <property name="title">
+     <string>POS F1D022046</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menugedeManik">
+    <property name="title">
+     <string>gedeManik</string>
+    </property>
+   </widget>
+   <addaction name="menuPOS_F1D022046"/>
+   <addaction name="menugedeManik"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
